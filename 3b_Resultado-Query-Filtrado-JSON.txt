@@ -1,0 +1,376 @@
+/usr/lib/jvm/default-java/bin/java -javaagent:/snap/intellij-idea-community/202/lib/idea_rt.jar=45295:/snap/intellij-idea-community/202/bin -Dfile.encoding=UTF-8 -classpath /usr/lib/jvm/default-java/jre/lib/charsets.jar:/usr/lib/jvm/default-java/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/default-java/jre/lib/ext/dnsns.jar:/usr/lib/jvm/default-java/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/default-java/jre/lib/ext/jaccess.jar:/usr/lib/jvm/default-java/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/default-java/jre/lib/ext/localedata.jar:/usr/lib/jvm/default-java/jre/lib/ext/nashorn.jar:/usr/lib/jvm/default-java/jre/lib/ext/sunec.jar:/usr/lib/jvm/default-java/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/default-java/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/default-java/jre/lib/ext/zipfs.jar:/usr/lib/jvm/default-java/jre/lib/jce.jar:/usr/lib/jvm/default-java/jre/lib/jsse.jar:/usr/lib/jvm/default-java/jre/lib/management-agent.jar:/usr/lib/jvm/default-java/jre/lib/resources.jar:/usr/lib/jvm/default-java/jre/lib/rt.jar:/home/keepcoding/IdeaProjects/TestScalaNuevo/target/scala-2.11/classes:/home/keepcoding/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar:/home/keepcoding/.cache/coursier/v1/https/repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.7.1/snappy-java-1.1.7.1.jar:/home/keepcoding/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/spark/unused/1.0.0/unused-1.0.0.jar:/home/keepcoding/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/keepcoding/.cache/coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.4.1/lz4-java-1.4.1.jar:/home/keepcoding/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-tags_2.11/2.4.0/spark-tags_2.11-2.4.0.jar:/home/keepcoding/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-streaming-kafka-0-10_2.11/2.4.0/spark-streaming-kafka-0-10_2.11-2.4.0.jar:/home/keepcoding/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sql-kafka-0-10_2.11/2.4.0/spark-sql-kafka-0-10_2.11-2.4.0.jar:/home/keepcoding/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/kafka/kafka-clients/2.0.0/kafka-clients-2.0.0.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/xz-1.5.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jta-1.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jpam-1.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/ST4-4.0.4.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/guice-3.0.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/ivy-2.4.0.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/oro-2.0.8.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/avro-1.8.2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/core-1.1.2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/gson-2.2.4.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/hppc-0.7.2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/snappy-0.2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/antlr-2.7.7.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jsp-api-2.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/okio-1.13.0.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/opencsv-2.3.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/py4j-0.10.7.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/xmlenc-0.52.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/guava-14.0.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/janino-3.0.9.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jetty-6.1.26.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jline-2.14.6.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jsr305-1.3.9.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/log4j-1.2.17.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/minlog-1.3.0.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/okhttp-3.8.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/shims-0.7.45.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/stream-2.7.0.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/generex-1.0.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jdo-api-3.0.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/paranamer-2.8.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/pyrolite-4.13.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/JavaEWAH-0.3.2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/avro-ipc-1.8.2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/commons-io-2.4.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/javax.inject-1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jaxb-api-2.2.2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/libfb303-0.9.3.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/lz4-java-1.4.0.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/snakeyaml-1.15.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/stax-api-1.0-2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/stax-api-1.0.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/aopalliance-1.0.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/commons-cli-1.2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/commons-net-3.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/derby-10.12.1.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/httpcore-4.4.10.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/joda-time-2.9.3.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jodd-core-3.5.2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/libthrift-0.9.3.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/objenesis-2.5.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/orc-shims-1.5.5.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/super-csv-2.2.0.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/zookeeper-3.4.6.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/activation-1.1.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/automaton-1.11-8.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/chill-java-0.9.3.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/chill_2.11-0.9.3.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/commons-dbcp-1.4.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/commons-lang-2.6.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/httpclient-4.5.6.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/javolution-5.5.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/slf4j-api-1.7.16.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/xercesImpl-2.9.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/zjsonpatch-0.3.0.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/zstd-jni-1.3.2-2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/antlr-runtime-3.4.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/commons-lang3-3.5.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/guice-servlet-3.0.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/hadoop-auth-2.7.3.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/hadoop-hdfs-2.7.3.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/hk2-api-2.4.0-b34.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jackson-xc-1.9.13.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jetty-util-6.1.26.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jtransforms-2.4.0.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/kryo-shaded-4.0.2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/metrics-jvm-3.1.5.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/netty-3.9.9.Final.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/spire_2.11-0.13.0.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/aircompressor-0.10.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/antlr4-runtime-4.7.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/api-util-1.0.0-M20.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/breeze_2.11-0.13.2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/commons-codec-1.10.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/commons-pool-1.5.4.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/compress-lzf-1.0.3.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jackson-core-2.6.7.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/leveldbjni-all-1.8.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/metrics-core-3.1.5.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/metrics-json-3.1.5.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/arrow-format-0.10.0.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/arrow-memory-0.10.0.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/arrow-vector-0.10.0.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/commons-math3-3.4.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/hadoop-client-2.7.3.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/hadoop-common-2.7.3.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/hk2-utils-2.4.0-b34.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/javassist-3.18.1-GA.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jersey-guava-2.22.2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jul-to-slf4j-1.7.16.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/protobuf-java-2.5.0.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/snappy-java-1.1.7.3.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/RoaringBitmap-0.7.45.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/bonecp-0.8.0.RELEASE.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/commons-crypto-1.0.0.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/commons-digester-1.8.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/curator-client-2.7.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jackson-jaxrs-1.9.13.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jersey-client-2.22.2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jersey-common-2.22.2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jersey-server-2.22.2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/machinist_2.11-0.6.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/parquet-format-2.4.0.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/scala-xml_2.11-1.0.5.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/shapeless_2.11-2.3.2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/slf4j-log4j12-1.7.16.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/spark-sql_2.11-2.4.4.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/stringtemplate-3.2.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/commons-logging-1.1.3.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/curator-recipes-2.7.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/hadoop-yarn-api-2.7.3.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/hive-cli-1.2.1.spark2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/hk2-locator-2.4.0-b34.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/javax.ws.rs-api-2.0.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jcl-over-slf4j-1.7.16.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/json4s-ast_2.11-3.5.3.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/orc-core-1.5.5-nohive.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/parquet-column-1.10.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/parquet-common-1.10.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/parquet-hadoop-1.10.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/scala-library-2.11.12.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/scala-reflect-2.11.12.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/spark-core_2.11-2.4.4.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/spark-hive_2.11-2.4.4.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/spark-repl_2.11-2.4.4.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/spark-tags_2.11-2.4.4.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/spark-yarn_2.11-2.4.4.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/xbean-asm6-shaded-4.8.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/api-asn1-api-1.0.0-M20.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/commons-compiler-3.0.9.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/commons-compress-1.8.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/commons-httpclient-3.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/hive-exec-1.2.1.spark2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/hive-jdbc-1.2.1.spark2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/javax.inject-2.4.0-b34.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/json4s-core_2.11-3.5.3.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/kubernetes-model-4.1.2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/metrics-graphite-3.1.5.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/netty-all-4.1.17.Final.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/parquet-jackson-1.10.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/scala-compiler-2.11.12.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/spark-mesos_2.11-2.4.4.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/spark-mllib_2.11-2.4.4.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/apacheds-i18n-2.0.0-M15.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/arpack_combined_all-0.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/commons-beanutils-1.9.3.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/curator-framework-2.7.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/datanucleus-core-3.2.10.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/datanucleus-rdbms-3.2.9.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jackson-core-asl-1.9.13.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/javax.servlet-api-3.1.0.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/kubernetes-client-4.1.2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/macro-compat_2.11-1.1.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/parquet-encoding-1.10.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/spark-graphx_2.11-2.4.4.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/spark-sketch_2.11-2.4.4.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/spark-unsafe_2.11-2.4.4.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/univocity-parsers-2.7.3.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/hadoop-annotations-2.7.3.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/hadoop-yarn-client-2.7.3.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/hadoop-yarn-common-2.7.3.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jackson-databind-2.6.7.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/javax.annotation-api-1.2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jersey-media-jaxb-2.22.2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/json4s-scalap_2.11-3.5.3.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/spark-kvstore_2.11-2.4.4.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/spire-macros_2.11-0.13.0.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/avro-mapred-1.8.2-hadoop2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/breeze-macros_2.11-0.13.2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/commons-collections-3.2.2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/commons-configuration-1.6.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/datanucleus-api-jdo-3.2.6.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/hive-beeline-1.2.1.spark2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jackson-annotations-2.6.7.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jackson-mapper-asl-1.9.13.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/json4s-jackson_2.11-3.5.3.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/spark-catalyst_2.11-2.4.4.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/spark-launcher_2.11-2.4.4.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/apache-log4j-extras-1.2.17.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/eigenbase-properties-1.1.5.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/flatbuffers-1.2.0-3f79e055.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/logging-interceptor-3.12.0.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/orc-mapreduce-1.5.5-nohive.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/spark-streaming_2.11-2.4.4.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/validation-api-1.1.0.Final.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/hive-metastore-1.2.1.spark2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/mesos-1.4.0-shaded-protobuf.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/osgi-resource-locator-1.0.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/parquet-hadoop-bundle-1.6.0.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/spark-kubernetes_2.11-2.4.4.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/spark-tags_2.11-2.4.4-tests.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/htrace-core-3.1.0-incubating.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/spark-mllib-local_2.11-2.4.4.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/calcite-core-1.2.0-incubating.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jackson-dataformat-yaml-2.6.7.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/kubernetes-model-common-4.1.2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jackson-module-paranamer-2.7.9.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/calcite-linq4j-1.2.0-incubating.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/hadoop-yarn-server-common-2.7.3.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jersey-container-servlet-2.22.2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/spark-network-common_2.11-2.4.4.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/aopalliance-repackaged-2.4.0-b34.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/calcite-avatica-1.2.0-incubating.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/spark-network-shuffle_2.11-2.4.4.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/apacheds-kerberos-codec-2.0.0-M15.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/hadoop-mapreduce-client-app-2.7.3.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jackson-module-scala_2.11-2.6.7.1.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/hadoop-mapreduce-client-core-2.7.3.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/hadoop-yarn-server-web-proxy-2.7.3.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/spark-hive-thriftserver_2.11-2.4.4.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/scala-parser-combinators_2.11-1.1.0.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/hadoop-mapreduce-client-common-2.7.3.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jersey-container-servlet-core-2.22.2.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/hadoop-mapreduce-client-shuffle-2.7.3.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/jackson-module-jaxb-annotations-2.6.7.jar:/home/keepcoding/spark-2.4.4-bin-hadoop2.7/jars/hadoop-mapreduce-client-jobclient-2.7.3.jar Consumidor_readjson
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+20/02/09 23:00:02 WARN Utils: Your hostname, debian resolves to a loopback address: 127.0.1.1; using 10.0.2.15 instead (on interface enp0s3)
+20/02/09 23:00:02 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+20/02/09 23:00:02 INFO SparkContext: Running Spark version 2.4.4
+20/02/09 23:00:02 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+20/02/09 23:00:03 INFO SparkContext: Submitted application: Consumidor_readjson
+20/02/09 23:00:03 INFO SecurityManager: Changing view acls to: keepcoding
+20/02/09 23:00:03 INFO SecurityManager: Changing modify acls to: keepcoding
+20/02/09 23:00:03 INFO SecurityManager: Changing view acls groups to: 
+20/02/09 23:00:03 INFO SecurityManager: Changing modify acls groups to: 
+20/02/09 23:00:03 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(keepcoding); groups with view permissions: Set(); users  with modify permissions: Set(keepcoding); groups with modify permissions: Set()
+20/02/09 23:00:04 INFO Utils: Successfully started service 'sparkDriver' on port 34911.
+20/02/09 23:00:04 INFO SparkEnv: Registering MapOutputTracker
+20/02/09 23:00:04 INFO SparkEnv: Registering BlockManagerMaster
+20/02/09 23:00:04 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+20/02/09 23:00:04 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+20/02/09 23:00:04 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-95ca83c3-08e1-4437-b6b9-8825b0cd9120
+20/02/09 23:00:04 INFO MemoryStore: MemoryStore started with capacity 666.0 MB
+20/02/09 23:00:04 INFO SparkEnv: Registering OutputCommitCoordinator
+20/02/09 23:00:04 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+20/02/09 23:00:04 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://10.0.2.15:4040
+20/02/09 23:00:04 INFO Executor: Starting executor ID driver on host localhost
+20/02/09 23:00:04 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 34603.
+20/02/09 23:00:04 INFO NettyBlockTransferService: Server created on 10.0.2.15:34603
+20/02/09 23:00:04 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+20/02/09 23:00:05 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 10.0.2.15, 34603, None)
+20/02/09 23:00:05 INFO BlockManagerMasterEndpoint: Registering block manager 10.0.2.15:34603 with 666.0 MB RAM, BlockManagerId(driver, 10.0.2.15, 34603, None)
+20/02/09 23:00:05 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 10.0.2.15, 34603, None)
+20/02/09 23:00:05 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 10.0.2.15, 34603, None)
+20/02/09 23:00:05 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/keepcoding/IdeaProjects/TestScalaNuevo/spark-warehouse/').
+20/02/09 23:00:05 INFO SharedState: Warehouse path is 'file:/home/keepcoding/IdeaProjects/TestScalaNuevo/spark-warehouse/'.
+20/02/09 23:00:06 INFO StateStoreCoordinatorRef: Registered StateStoreCoordinator endpoint
+20/02/09 23:00:08 INFO CheckpointFileManager: Writing atomically to file:/tmp/temporary-888c1643-cfdc-408d-809f-4069b5715408/metadata using temp file file:/tmp/temporary-888c1643-cfdc-408d-809f-4069b5715408/.metadata.efa139d6-a829-4503-a237-613dac02b0a4.tmp
+20/02/09 23:00:08 INFO CheckpointFileManager: Renamed temp file file:/tmp/temporary-888c1643-cfdc-408d-809f-4069b5715408/.metadata.efa139d6-a829-4503-a237-613dac02b0a4.tmp to file:/tmp/temporary-888c1643-cfdc-408d-809f-4069b5715408/metadata
+20/02/09 23:00:08 INFO MicroBatchExecution: Starting [id = 47affb85-ba30-459e-819e-941e36f60a51, runId = 4bb9b3a6-2728-42c2-abac-cba29b3a57f1]. Use file:///tmp/temporary-888c1643-cfdc-408d-809f-4069b5715408 to store the query checkpoint.
+20/02/09 23:00:08 INFO MicroBatchExecution: Using MicroBatchReader [KafkaV2[Subscribe[readjson]]] from DataSourceV2 named 'kafka' [org.apache.spark.sql.kafka010.KafkaSourceProvider@30498dd8]
+20/02/09 23:00:08 INFO MicroBatchExecution: Starting new streaming query.
+20/02/09 23:00:08 INFO MicroBatchExecution: Stream started from {}
+20/02/09 23:00:08 INFO ConsumerConfig: ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 1
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+20/02/09 23:00:08 INFO AppInfoParser: Kafka version : 2.0.0
+20/02/09 23:00:08 INFO AppInfoParser: Kafka commitId : 3402a8361b734732
+20/02/09 23:00:08 INFO Metadata: Cluster ID: 03IuiQ2fQVuaLMtn7G-_zA
+20/02/09 23:00:08 INFO AbstractCoordinator: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Discovered group coordinator debian:9092 (id: 2147483647 rack: null)
+20/02/09 23:00:08 INFO ConsumerCoordinator: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Revoking previously assigned partitions []
+20/02/09 23:00:08 INFO AbstractCoordinator: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] (Re-)joining group
+20/02/09 23:00:08 INFO AbstractCoordinator: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Successfully joined group with generation 1
+20/02/09 23:00:08 INFO ConsumerCoordinator: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Setting newly assigned partitions [readjson-0]
+20/02/09 23:00:08 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 0.
+20/02/09 23:00:08 INFO CheckpointFileManager: Writing atomically to file:/tmp/temporary-888c1643-cfdc-408d-809f-4069b5715408/sources/0/0 using temp file file:/tmp/temporary-888c1643-cfdc-408d-809f-4069b5715408/sources/0/.0.ada4820c-7991-4eef-922c-e14b3a6f1ab6.tmp
+20/02/09 23:00:09 INFO CheckpointFileManager: Renamed temp file file:/tmp/temporary-888c1643-cfdc-408d-809f-4069b5715408/sources/0/.0.ada4820c-7991-4eef-922c-e14b3a6f1ab6.tmp to file:/tmp/temporary-888c1643-cfdc-408d-809f-4069b5715408/sources/0/0
+20/02/09 23:00:09 INFO KafkaMicroBatchReader: Initial offsets: {"readjson":{"0":0}}
+20/02/09 23:00:09 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:09 INFO CheckpointFileManager: Writing atomically to file:/tmp/temporary-888c1643-cfdc-408d-809f-4069b5715408/offsets/0 using temp file file:/tmp/temporary-888c1643-cfdc-408d-809f-4069b5715408/offsets/.0.1d1dd299-97a5-4192-b282-3ceed2bfc16e.tmp
+20/02/09 23:00:09 INFO CheckpointFileManager: Renamed temp file file:/tmp/temporary-888c1643-cfdc-408d-809f-4069b5715408/offsets/.0.1d1dd299-97a5-4192-b282-3ceed2bfc16e.tmp to file:/tmp/temporary-888c1643-cfdc-408d-809f-4069b5715408/offsets/0
+20/02/09 23:00:09 INFO MicroBatchExecution: Committed offsets for batch 0. Metadata OffsetSeqMetadata(0,1581285609013,Map(spark.sql.streaming.stateStore.providerClass -> org.apache.spark.sql.execution.streaming.state.HDFSBackedStateStoreProvider, spark.sql.streaming.flatMapGroupsWithState.stateFormatVersion -> 2, spark.sql.streaming.multipleWatermarkPolicy -> min, spark.sql.streaming.aggregation.stateFormatVersion -> 2, spark.sql.shuffle.partitions -> 200))
+20/02/09 23:00:09 INFO KafkaMicroBatchReader: Partitions added: Map()
+20/02/09 23:00:10 INFO CodeGenerator: Code generated in 229.430732 ms
+20/02/09 23:00:10 INFO CodeGenerator: Code generated in 51.173277 ms
+20/02/09 23:00:10 INFO WriteToDataSourceV2Exec: Start processing data source writer: org.apache.spark.sql.execution.streaming.sources.MicroBatchWriter@6d48f44a. The input RDD has 1 partitions.
+20/02/09 23:00:10 INFO SparkContext: Starting job: start at Consumidor_readjson.scala:40
+20/02/09 23:00:10 INFO DAGScheduler: Got job 0 (start at Consumidor_readjson.scala:40) with 1 output partitions
+20/02/09 23:00:10 INFO DAGScheduler: Final stage: ResultStage 0 (start at Consumidor_readjson.scala:40)
+20/02/09 23:00:10 INFO DAGScheduler: Parents of final stage: List()
+20/02/09 23:00:10 INFO DAGScheduler: Missing parents: List()
+20/02/09 23:00:10 INFO DAGScheduler: Submitting ResultStage 0 (MapPartitionsRDD[3] at start at Consumidor_readjson.scala:40), which has no missing parents
+20/02/09 23:00:10 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 15.5 KB, free 666.0 MB)
+20/02/09 23:00:10 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 7.0 KB, free 666.0 MB)
+20/02/09 23:00:10 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 10.0.2.15:34603 (size: 7.0 KB, free: 666.0 MB)
+20/02/09 23:00:10 INFO SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:1161
+20/02/09 23:00:10 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[3] at start at Consumidor_readjson.scala:40) (first 15 tasks are for partitions Vector(0))
+20/02/09 23:00:10 INFO TaskSchedulerImpl: Adding task set 0.0 with 1 tasks
+20/02/09 23:00:10 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, PROCESS_LOCAL, 8722 bytes)
+20/02/09 23:00:10 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+20/02/09 23:00:11 INFO ConsumerConfig: ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = none
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-executor
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+20/02/09 23:00:11 INFO AppInfoParser: Kafka version : 2.0.0
+20/02/09 23:00:11 INFO AppInfoParser: Kafka commitId : 3402a8361b734732
+20/02/09 23:00:11 INFO CodeGenerator: Code generated in 37.992107 ms
+20/02/09 23:00:11 INFO CodeGenerator: Code generated in 44.101566 ms
+20/02/09 23:00:11 INFO Metadata: Cluster ID: 03IuiQ2fQVuaLMtn7G-_zA
+20/02/09 23:00:11 INFO DataWritingSparkTask: Commit authorized for partition 0 (task 0, attempt 0, stage 0.0)
+20/02/09 23:00:11 INFO DataWritingSparkTask: Committed partition 0 (task 0, attempt 0, stage 0.0)
+20/02/09 23:00:11 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 1427 bytes result sent to driver
+20/02/09 23:00:11 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 628 ms on localhost (executor driver) (1/1)
+20/02/09 23:00:11 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+20/02/09 23:00:11 INFO DAGScheduler: ResultStage 0 (start at Consumidor_readjson.scala:40) finished in 0,899 s
+20/02/09 23:00:11 INFO DAGScheduler: Job 0 finished: start at Consumidor_readjson.scala:40, took 0,975572 s
+20/02/09 23:00:11 INFO WriteToDataSourceV2Exec: Data source writer org.apache.spark.sql.execution.streaming.sources.MicroBatchWriter@6d48f44a is committing.
+-------------------------------------------
+Batch: 0
+-------------------------------------------
+20/02/09 23:00:11 INFO CodeGenerator: Code generated in 23.855346 ms
++---+----------+---------+-----+------+----------+
+| id|first_name|last_name|email|gender|ip_address|
++---+----------+---------+-----+------+----------+
++---+----------+---------+-----+------+----------+
+
+20/02/09 23:00:11 INFO WriteToDataSourceV2Exec: Data source writer org.apache.spark.sql.execution.streaming.sources.MicroBatchWriter@6d48f44a committed.
+20/02/09 23:00:11 INFO SparkContext: Starting job: start at Consumidor_readjson.scala:40
+20/02/09 23:00:11 INFO DAGScheduler: Job 1 finished: start at Consumidor_readjson.scala:40, took 0,000045 s
+20/02/09 23:00:11 INFO CheckpointFileManager: Writing atomically to file:/tmp/temporary-888c1643-cfdc-408d-809f-4069b5715408/commits/0 using temp file file:/tmp/temporary-888c1643-cfdc-408d-809f-4069b5715408/commits/.0.53a56a85-77ff-42a9-8bab-a7d506d678d5.tmp
+20/02/09 23:00:11 INFO CheckpointFileManager: Renamed temp file file:/tmp/temporary-888c1643-cfdc-408d-809f-4069b5715408/commits/.0.53a56a85-77ff-42a9-8bab-a7d506d678d5.tmp to file:/tmp/temporary-888c1643-cfdc-408d-809f-4069b5715408/commits/0
+20/02/09 23:00:11 INFO MicroBatchExecution: Streaming query made progress: {
+  "id" : "47affb85-ba30-459e-819e-941e36f60a51",
+  "runId" : "4bb9b3a6-2728-42c2-abac-cba29b3a57f1",
+  "name" : null,
+  "timestamp" : "2020-02-09T22:00:08.506Z",
+  "batchId" : 0,
+  "numInputRows" : 208,
+  "processedRowsPerSecond" : 64.17772292502313,
+  "durationMs" : {
+    "addBatch" : 2193,
+    "getBatch" : 4,
+    "getEndOffset" : 0,
+    "queryPlanning" : 451,
+    "setOffsetRange" : 498,
+    "triggerExecution" : 3240,
+    "walCommit" : 43
+  },
+  "stateOperators" : [ ],
+  "sources" : [ {
+    "description" : "KafkaV2[Subscribe[readjson]]",
+    "startOffset" : null,
+    "endOffset" : {
+      "readjson" : {
+        "0" : 208
+      }
+    },
+    "numInputRows" : 208,
+    "processedRowsPerSecond" : 64.17772292502313
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@3d40d5f1"
+  }
+}
+20/02/09 23:00:11 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:11 INFO MicroBatchExecution: Streaming query made progress: {
+  "id" : "47affb85-ba30-459e-819e-941e36f60a51",
+  "runId" : "4bb9b3a6-2728-42c2-abac-cba29b3a57f1",
+  "name" : null,
+  "timestamp" : "2020-02-09T22:00:11.804Z",
+  "batchId" : 1,
+  "numInputRows" : 0,
+  "inputRowsPerSecond" : 0.0,
+  "processedRowsPerSecond" : 0.0,
+  "durationMs" : {
+    "getEndOffset" : 1,
+    "setOffsetRange" : 15,
+    "triggerExecution" : 17
+  },
+  "stateOperators" : [ ],
+  "sources" : [ {
+    "description" : "KafkaV2[Subscribe[readjson]]",
+    "startOffset" : {
+      "readjson" : {
+        "0" : 208
+      }
+    },
+    "endOffset" : {
+      "readjson" : {
+        "0" : 208
+      }
+    },
+    "numInputRows" : 0,
+    "inputRowsPerSecond" : 0.0,
+    "processedRowsPerSecond" : 0.0
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@3d40d5f1"
+  }
+}
+20/02/09 23:00:11 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:11 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:11 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:11 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:11 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:11 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:11 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:11 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:11 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:11 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:11 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:11 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO SparkContext: Invoking stop() from shutdown hook
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO SparkUI: Stopped Spark web UI at http://10.0.2.15:4040
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO MemoryStore: MemoryStore cleared
+20/02/09 23:00:12 INFO BlockManager: BlockManager stopped
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO BlockManagerMaster: BlockManagerMaster stopped
+20/02/09 23:00:12 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+20/02/09 23:00:12 INFO SparkContext: Successfully stopped SparkContext
+20/02/09 23:00:12 INFO ShutdownHookManager: Shutdown hook called
+20/02/09 23:00:12 INFO ShutdownHookManager: Deleting directory /tmp/temporary-888c1643-cfdc-408d-809f-4069b5715408
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO ShutdownHookManager: Deleting directory /tmp/temporaryReader-cb32e5af-088f-444e-a21b-9dd31650b8aa
+20/02/09 23:00:12 INFO Fetcher: [Consumer clientId=consumer-1, groupId=spark-kafka-source-a7601242-e8a5-4ede-b4f3-d67aa503483b-998654738-driver-0] Resetting offset for partition readjson-0 to offset 208.
+20/02/09 23:00:12 INFO ShutdownHookManager: Deleting directory /tmp/spark-20ee4a24-27f0-4a02-bb43-2979ba85a6de
+
+Process finished with exit code 130 (interrupted by signal 2: SIGINT)
